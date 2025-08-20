@@ -7,7 +7,7 @@ local RunService = game:GetService("RunService")
 
 -- Конфигурация
 local TOGGLE_KEY = Enum.KeyCode.L
-local IMAGE_URL = "https://raw.githubusercontent.com/GermionpiZDA/L-scripttest/refs/heads/main/scripttest/images/background.png"
+local IMAGE_URL = "https://raw.githubusercontent.com/GermionpiZDA/L-scripttest/refs/heads/main/scripttest/images/background.jpg"
 
 -- Переменные
 local menuOpen = false
@@ -210,4 +210,5 @@ end
 return {
     ToggleMenu = ToggleMenu,
     DestroyMenu = DestroyMenu
+
 }
